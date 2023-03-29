@@ -180,7 +180,7 @@ h1, h2, h3, h4, h5, h6
 }
 
 /*--------------------------------------------------------------
-# Hero Section
+# home Section
 --------------------------------------------------------------*/
 #home {
   width: 100%;
@@ -239,11 +239,11 @@ h1, h2, h3, h4, h5, h6
     animation: none;
   }
 
-  #home .hero-img {
+  #home .home-img {
     text-align: center;
   }
 
-  #home .hero-img img {
+  #home .home-img img {
     width: 50%;
   }
 }
@@ -260,13 +260,13 @@ h1, h2, h3, h4, h5, h6
     margin-bottom: 30px;
   }
 
-  #home .hero-img img {
+  #home .home-img img {
     width: 70%;
   }
 }
 
 @media (max-width: 575px) {
-  #home .hero-img img {
+  #home .home-img img {
     width: 80%;
   }
 
@@ -330,7 +330,7 @@ h1, h2, h3, h4, h5, h6
 }
 
 /*--------------------------------------------------------------
-# Hero Section
+# home Section
 --------------------------------------------------------------*/
 #home {
   width: 100%;
@@ -350,7 +350,7 @@ h1, h2, h3, h4, h5, h6
   z-index: 1;
 }
 
-#home .hero-container {
+#home .home-container {
   position: relative;
   z-index: 2;
   min-width: 300px;
