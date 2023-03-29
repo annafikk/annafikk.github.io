@@ -182,17 +182,17 @@ h1, h2, h3, h4, h5, h6
 /*--------------------------------------------------------------
 # Hero Section
 --------------------------------------------------------------*/
-#hero {
+#home {
   width: 100%;
   height: 80vh;
   background: #37517e;
 }
 
-#hero .container {
+#home .container {
   padding-top: 72px;
 }
 
-#hero h1 {
+#home h1 {
   margin: 0 0 10px 0;
   font-size: 48px;
   font-weight: 700;
@@ -200,13 +200,13 @@ h1, h2, h3, h4, h5, h6
   color: #fff;
 }
 
-#hero h2 {
+#home h2 {
   color: rgba(255, 255, 255, 0.6);
   margin-bottom: 50px;
   font-size: 24px;
 }
 
-#hero .getstarted, #hero .getstarted:focus {
+#home .getstarted, #home .getstarted:focus {
   text-decoration: none;
   position: relative;
   padding: 8px 20px;
@@ -218,59 +218,59 @@ h1, h2, h3, h4, h5, h6
   font-weight: 500;
 }
 
-#hero .getstarted:hover,
-#hero .getstarted:focus:hover {
+#home .getstarted:hover,
+#home .getstarted:focus:hover {
   color: #fff;
   background: #31a9e1;
 }
 
-#hero .animated {
+#home .animated {
   animation: up-down 2s ease-in-out infinite alternate-reverse both;
 }
 
 @media (max-width: 991px) {
-  #hero {
+  #home {
     height: 100vh;
     text-align: center;
   }
 
-  #hero .animated {
+  #home .animated {
     -webkit-animation: none;
     animation: none;
   }
 
-  #hero .hero-img {
+  #home .hero-img {
     text-align: center;
   }
 
-  #hero .hero-img img {
+  #home .hero-img img {
     width: 50%;
   }
 }
 
 @media (max-width: 768px) {
-  #hero h1 {
+  #home h1 {
     font-size: 28px;
     line-height: 36px;
   }
 
-  #hero h2 {
+  #home h2 {
     font-size: 18px;
     line-height: 24px;
     margin-bottom: 30px;
   }
 
-  #hero .hero-img img {
+  #home .hero-img img {
     width: 70%;
   }
 }
 
 @media (max-width: 575px) {
-  #hero .hero-img img {
+  #home .hero-img img {
     width: 80%;
   }
 
-  #hero .btn-get-started {
+  #home .btn-get-started {
     font-size: 16px;
     padding: 10px 24px 11px 24px;
   }
@@ -332,14 +332,14 @@ h1, h2, h3, h4, h5, h6
 /*--------------------------------------------------------------
 # Hero Section
 --------------------------------------------------------------*/
-#hero {
+#home {
   width: 100%;
   height: 100vh;
   background: url("../img/background.jpg") top center;
   background-size: cover;
 }
 
-#hero:before {
+#home:before {
   content: "";
   background: rgba(5, 13, 24, 0.3);
   position: absolute;
@@ -350,13 +350,13 @@ h1, h2, h3, h4, h5, h6
   z-index: 1;
 }
 
-#hero .hero-container {
+#home .hero-container {
   position: relative;
   z-index: 2;
   min-width: 300px;
 }
 
-#hero h1 {
+#home h1 {
   margin: 0 0 10px 0;
   font-size: 64px;
   font-weight: 700;
@@ -364,14 +364,14 @@ h1, h2, h3, h4, h5, h6
   color: #fff;
 }
 
-#hero p {
+#home p {
   color: #fff;
   margin-bottom: 50px;
   font-size: 26px;
   font-family: "Poppins", sans-serif;
 }
 
-#hero p span {
+#home p span {
   color: #fff;
   padding-bottom: 4px;
   letter-spacing: 1px;
@@ -379,18 +379,18 @@ h1, h2, h3, h4, h5, h6
 }
 
 @media (min-width: 1024px) {
-  #hero {
+  #home {
     background-attachment: fixed;
   }
 }
 
 @media (max-width: 768px) {
-  #hero h1 {
+  #home h1 {
     font-size: 28px;
     line-height: 36px;
   }
 
-  #hero h2 {
+  #home h2 {
     font-size: 18px;
     line-height: 24px;
     margin-bottom: 30px;
