@@ -31,6 +31,7 @@ p
 h1, h2, h3, h4, h5, h6 
 {
   font-family: "Jost", sans-serif;
+  font-weight: bold;
 }
 
 /*--------------------------------------------------------------
@@ -1271,7 +1272,7 @@ section {
   left: 0;
   width: 100%;
   height: 100px;
-  background-image: url(/assets/img/footer-wave.png);
+  background-image: url(../img/footer-wave.png);
   background-size: 1000px 100px;
 }
 
